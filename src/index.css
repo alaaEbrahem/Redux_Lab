@@ -1,0 +1,100 @@
+*{
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+body{
+  margin: 0;
+  padding: 0;
+  background-color: #46529d;
+  color:#ffff;
+}
+.text-center{
+  text-align: center;
+}
+.container{
+  background-color: beige;
+  width: auto;
+  margin:  auto;
+}
+/* .container h1{
+
+  //  margin-bottom: 100px;
+
+} */
+.listItems{
+ 
+  background:#ffff;
+  background-color: beige;
+  color:#46529d; 
+
+}
+.listItems p{
+  margin: 0;
+  text-align: center;
+  padding: 10px 0px;
+}
+.listItems span{
+  display: inline-block;
+  text-align: center;
+  padding:  10px 0px;
+  font-size: 20px;
+  border:0.3px solid #ccc;
+}
+.listItems span.title{
+  background: #17a2b8;
+  color:#fff;
+ 
+  }
+  .listItems span.name,
+  form input[type=text]{
+    width:50%;
+  }
+  .listItems span.head{
+    padding-top: 16px;
+    padding-bottom: 18px;
+  }
+  
+  .listItems span.action,
+  form input[type=submit]{
+    width:10%;
+  
+  }
+  .listItems span.icon{
+    cursor: pointer;
+    color: #17a2b8;
+    padding-top: 17px;
+    padding-bottom: 19px;
+   
+    }
+    .listItems span.name{
+  
+      padding-top: 17px;
+      padding-bottom: 19px;
+     
+      }
+    form input{
+      padding: 20px;
+      background-color: #ebeebe;
+      border:transparent;
+      font-size: 20px;
+      border:0.3px solid #ccc;
+    }
+    form input[type=submit]{
+      background-color: #17a2b8;
+      border: 0.3px solid #17a2b8;
+      color:#fff;
+      cursor:pointer;
+    }
+    input[type="checkbox"]{
+      width: 30px; /*Desired width*/
+      height: 21px; /*Desired height*/
+      cursor: pointer;
+    
+    }
+    .listItems div .name,.listItems div .icon,.listItems div .title{
+      background-color: white;
+    }
+    .header{
+      color:#17a2b8; 
+    }
+

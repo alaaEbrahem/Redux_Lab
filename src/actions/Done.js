@@ -1,0 +1,1 @@
+export const doneTodo = id => ({ type: 'DONE_TODO', id });
